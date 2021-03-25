@@ -1,0 +1,1 @@
+const closeIconPath = 'assets/icons/Close.png';

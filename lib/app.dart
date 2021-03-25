@@ -1,15 +1,16 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:test_prj/screens/screen_1/screen_1.dart';
 
 import 'constant/colors.dart';
 import 'screens/screen_0.dart';
-import 'screens/screen_1.dart';
 import 'screens/screen_2.dart';
 
 class App extends StatelessWidget {
   const App({Key key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) => WidgetsApp(
+  Widget build(BuildContext context) => MaterialApp(
         color: ProjectColor.black,
         debugShowCheckedModeBanner: false,
         routes: {
@@ -17,7 +18,7 @@ class App extends StatelessWidget {
           Screen1.routeName: (context) => const Screen1(),
           Screen2.routeName: (context) => const Screen2(),
         },
-        pageRouteBuilder: _pageRouteBuilder,
+        // pageRouteBuilder: _pageRouteBuilder,
       );
 
   PageRoute<T> _pageRouteBuilder<T>(
