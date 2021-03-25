@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:test_prj/constant/styles.dart';
-import 'package:test_prj/screens/screen_1/widget/close_button.dart';
+import 'package:test_prj/screens/screen_1/widget/test_dialog/widget/close_button.dart';
 
-import '../../../constant/colors.dart';
+import '../../../../../constant/colors.dart';
 
 class DialogTitle extends StatelessWidget {
   final String title;

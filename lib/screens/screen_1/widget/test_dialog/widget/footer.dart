@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:test_prj/constant/styles.dart';
 
-import '../../../constant/colors.dart';
+import '../../../../../constant/colors.dart';
 
 class DialogFooter extends StatelessWidget {
   const DialogFooter({Key key, this.buttonText}) : super(key: key);

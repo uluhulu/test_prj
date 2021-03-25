@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:test_prj/constant/styles.dart';
 
-import '../../../constant/colors.dart';
+import '../../../../../constant/colors.dart';
 
 class MainText extends StatelessWidget {
-  final String mainText;
-
   const MainText({Key key, this.mainText}) : super(key: key);
+
+  final String mainText;
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class MainText extends StatelessWidget {
       constraints: const BoxConstraints(minHeight: 308, maxHeight: 400),
       color: ProjectColor.gainsboro,
       child: Container(
-        decoration:  BoxDecoration(
+        decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.bottomCenter,
             end: const Alignment(0, 0.9),
@@ -44,5 +44,4 @@ class MainText extends StatelessWidget {
       ),
     );
   }
-
 }

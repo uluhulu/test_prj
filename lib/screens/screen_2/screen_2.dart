@@ -48,19 +48,20 @@ class _Screen2State extends State<Screen2> {
               Container(
                 height: 185,
                 child: ListView.builder(
-                    scrollDirection: Axis.horizontal,
-                    itemCount: provider.itemsCount,
-                    itemBuilder: (context, index) {
-                      return Padding(
-                        padding: index == 0
-                            ? const EdgeInsets.only(left: 16.0)
-                            : EdgeInsets.zero,
-                        child: ListItem(
-                          listItemTitle: provider.itemAt(index),
-                          width: 350,
-                        ),
-                      );
-                    }),
+                  scrollDirection: Axis.horizontal,
+                  itemCount: provider.itemsCount,
+                  itemBuilder: (context, index) {
+                    return Padding(
+                      padding: index == 0
+                          ? const EdgeInsets.only(left: 16.0)
+                          : EdgeInsets.zero,
+                      child: ListItem(
+                        listItemTitle: provider.itemAt(index),
+                        width: 350,
+                      ),
+                    );
+                  },
+                ),
               ),
             ],
           );

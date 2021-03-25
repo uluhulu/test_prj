@@ -3,10 +3,10 @@ import 'package:test_prj/constant/colors.dart';
 import 'package:test_prj/constant/styles.dart';
 
 class ListItem extends StatelessWidget {
+  const ListItem({Key key, this.listItemTitle, this.width}) : super(key: key);
+
   final String listItemTitle;
   final double width;
-
-  const ListItem({Key key, this.listItemTitle, this.width}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:test_prj/constant/strings.dart';
 import 'package:test_prj/constant/text.dart';
-import 'package:test_prj/screens/screen_1/widget/close_button.dart';
-import 'package:test_prj/screens/screen_1/widget/test_dialog.dart';
+import 'package:test_prj/screens/screen_1/widget/test_dialog/widget/close_button.dart';
+import 'package:test_prj/screens/screen_1/widget/test_dialog/test_dialog.dart';
 
 import '../../app.dart';
 import '../../constant/colors.dart';

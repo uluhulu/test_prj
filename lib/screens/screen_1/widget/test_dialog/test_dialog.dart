@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:test_prj/constant/text.dart';
-import 'package:test_prj/screens/screen_1/widget/footer.dart';
-import 'package:test_prj/screens/screen_1/widget/main_text.dart';
-import '../../../constant/colors.dart';
-import 'title.dart';
+import 'package:test_prj/screens/screen_1/widget/test_dialog/widget/footer.dart';
+import 'package:test_prj/screens/screen_1/widget/test_dialog/widget/main_text.dart';
+import '../../../../constant/colors.dart';
+import 'widget/title.dart';
 
 class TestDialog extends StatelessWidget {
   const TestDialog({
     Key key,
     this.titleName,
     this.subtitleName,
-    this.mainText, this.buttonText,
+    this.mainText,
+    this.buttonText,
   }) : super(key: key);
 
   final String titleName;
@@ -43,7 +43,9 @@ class TestDialog extends StatelessWidget {
                 MainText(
                   mainText: mainText,
                 ),
-                 DialogFooter(buttonText: buttonText,),
+                DialogFooter(
+                  buttonText: buttonText,
+                ),
               ],
             ),
           ),
