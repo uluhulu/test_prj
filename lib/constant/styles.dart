@@ -23,3 +23,4 @@ final bold14StyleWhite = boldStyle.copyWith(
   fontSize: 14,
   color: ProjectColor.white,
 );
+

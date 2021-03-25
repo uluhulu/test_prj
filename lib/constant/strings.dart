@@ -1,4 +1,5 @@
 
 const titleText = 'Title';
-const subtitleText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis justo non nisi placerat maximus.';
 const buttonText = 'TEST BUTTON';
+const section1Text ='Section 1';
+const section2Text ='Section 2';
